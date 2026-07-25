@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karina Rajnauth — Software Developer</title>
+<meta name="description" content="Software developer portfolio — projects, case studies, and contact.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <a class="brand" href="#top">KR<span class="brand-dot">.</span></a>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a class="nav-resume" href="./resume.pdf" target="_blank" rel="noopener">Résumé ↗</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section id="top" class="hero">
+    <p class="eyebrow">// business systems analyst, software developer, HRIS administrator</p>
+    <h1 class="hero-name">Karina Rajnauth<span class="cursor" aria-hidden="true">_</span></h1>
+    <p class="hero-desc">
+      I design and develop business applications that solve operational challenges through business analysis, software development and data analytics. My experience spans enterprise HR systems, Oracle Fusion implementation, workflow automation, ETL development and application support within the Trinidad and Tobago Police Service.
+      Below is a build log of recent projects:
+      what problem each one solved, how, and what I learned along the way.
+    </p>
+
+    <ul class="hero-links">
+      <li><a href="mailto:karinarajnauth@gmail.com">email ↗</a></li>
+      <li><a href="https://github.com/karinalaura" target="_blank" rel="noopener">github ↗</a></li>
+      <li><a href="https://linkedin.com/in/karinarajnauth" target="_blank" rel="noopener">linkedin ↗</a></li>
+    </ul>
+
+    <ul class="hero-stack" aria-label="Core technologies">
+      <li>Python</li>
+      <li>SQL</li>
+      <li>Flask</li>
+      <li>Django</li>
+      <li>VS Code</li>
+      <li>ETL</li>
+      <li>Business Process Modelling</li>
+      <li>iHRIS</li>
+    </ul>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section id="work" class="work">
+    <h2 class="section-label">## projects</h2>
+
+    <div class="entries">
+
+      <!-- ---------- PROJECT 1 ---------- -->
+      <article class="entry" id="project-one">
+        <header class="entry-head">
+          <span class="entry-index">log[01]</span>
+          <div class="entry-title-row">
+            <h3 class="entry-title">Job Letter Application</h3>
+            <span class="status-pill status-live">live</span>
+          </div>
+          <p class="entry-tagline">A Python web application developed to automate the generation of official employment verification letters. 
+            The system integrates payroll data through an ETL process, reducing manual preparation time while improving accuracy and consistency.</p>
+          <p class="shot-hint">Username: admin | Password: password<br>
+          Search for Badge Numbers: 58214, 58215</p>
+          <div class="entry-actions">
+            <a class="btn btn-primary" href="https://job-letter-generator-nn9o.onrender.com" target="_blank" rel="noopener">demo ↗</a>
+            <!--<a class="btn btn-ghost" href="https://github.com/yourusername/project-one" target="_blank" rel="noopener">source ↗</a>-->
+          </div>
+        </header>
+
+        <dl class="spec">
+          <div class="spec-row">
+            <dt>business challenge</dt>
+            <dd>The process for generating employment verification letters was manual, time-consuming and dependent on information from multiple systems. 
+              Officers required professionally formatted job letters containing verified employment information, authorised signatures and organisational branding. 
+              Additionally, payroll information required to populate the letters was available only as PDF payslips, making manual data entry inefficient and susceptible to errors.</dd>
+          </div>
+          <div class="spec-row">
+            <dt>my role</dt>
+            <ul class="feature-list">
+            <li>Business Analysis</li>
+            <li>Requirements Gathering</li>
+            <li>Database Design</li>
+            <li>Python Development</li>
+            <li>ETL Development</li>
+            <li>Testing</li>
+            <li>User Demonstrations</li>
+            <li>Ongoing Maintenance</li>
+          </ul>
+          </div>
+          <div class="spec-row">
+            <dt>solution</dt>
+            <dd>Designed and developed a Python/Django web application to automate the generation of official employment verification letters. The application incorporates standardised letter templates, authorised electronic
+               signatures and automated population of employee and payroll information. During development, identified the need for an intermediate data integration process and designed a separate Flask-based ETL application 
+               to extract, validate, cleanse and transform payroll data from PDF payslips before loading it into the application database.
+Designed the application architecture to support QR code-based document verification, enabling external organisations to authenticate the validity of electronically issued job letters and supporting future digital service delivery through ESS.
+Presented the completed solution to senior stakeholders, demonstrating the system architecture, relational database design, application workflow, data model and implementation approach.</dd>
+          </div>
+          <div class="spec-row">
+            <dt>stack</dt>
+            <dd>
+              <ul class="chip-row">
+                <li>Python</li>
+                <li>Flask</li>
+                <li>SQLite</li>
+                <li>ETL</li>
+                <li>ReportLab</li>
+              </ul>
+            </dd>
+          </div>
+        </dl>
+
+        <div class="entry-block">
+          <h4 class="block-label">screenshots</h4>
+          <div class="shot-grid">
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-one/01_overview.png" alt="…"></span>
+            </figure>
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-one/02_overview.png" alt="…"></span>
+            </figure>
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-one/03_overview.png" alt="…"></span>
+            </figure>
+          </div>
+        </div>
+
+        <div class="entry-block">
+          <h4 class="block-label">system architecture</h4>
+          <figure class="diagram-container">
+          <img class="diagram-img" src="assets/project-one/01_diagram.png" alt="…">
+          <figcaption>Figure 1: The Job Letter Application integrates data from multiple enterprise sources, applies validation and business rules through a Python data processing layer, 
+            and generates standardized electronic job letters for distribution through a paperless workflow.</figcaption>
+          </figure>
+        </div>
+
+        <div class="entry-block">
+          <h4 class="block-label">features</h4>
+          <ul class="feature-list">
+            <li>Verified salary and employment information.</li>
+            <li>Pre-populated list of organisations with addresses.</li>
+            <li>Official TTPS job letter templates.</li>
+            <li>Electronic signatures.</li>
+            <li>Search by badge number.</li>
+            <li>Letter history.</li>
+          </ul>
+        </div>
+
+        <dl class="spec">
+          <div class="spec-row">
+            <dt>operational impact</dt>
+          <ul class="feature-list">
+            <li>Reduced manual processing through workflow automation.</li>
+            <li>Enabled a paperless request and delivery process.</li>
+            <li>Improved consistency of official employment verification letters.</li>
+            <li>Enhanced data accuracy through automated ETL and validation.</li>
+            <li>Improved accessibility by allowing employees to request and receive letters electronically.</li>
+            <li>Established a foundation for future ESS integration and QR code validation.</li>
+          </ul>
+        </div>
+        </dl>
+
+        <div class="note-grid">
+          <div class="note">
+            <h4 class="block-label">challenges</h4>
+            <ul class="feature-list">
+            <li>Extracting structured payroll data from PDF files.</li>
+            <li>Cleaning inconsistent data before import.</li>
+            <li>Designing a database that supports monthly updates without duplication.</li>
+            <li>Ensuring letters followed official TTPS formatting requirements.</li>
+            <li>Preparing the system for future ESS integration.</li>
+          </ul>
+          </div>
+          <div class="note">
+            <h4 class="block-label">future enhancements</h4>
+            <ul class="feature-list">
+            <li>Active Directory authentication.</li>
+            <li>Employee Self-Service integration.</li>
+            <li>QR code validation portal.</li>
+            <li>Role-based permissions.</li>
+          </ul>
+          </div>
+        </div>
+        <div class="spec-row">
+            <dt>lessons learned</dt>
+            <dd>This project reinforced the importance of separating business logic from data processing, 
+              designing applications for maintainability and considering future integration requirements from the outset.</dd>
+          </div>
+      </article>
+
+      <!-- ---------- PROJECT 2 ---------- -->
+      <article class="entry" id="project-two">
+        <header class="entry-head">
+          <span class="entry-index">log[02]</span>
+          <div class="entry-title-row">
+            <h3 class="entry-title">Project Two</h3>
+            <span class="status-pill status-archived">archived</span>
+          </div>
+          <p class="entry-tagline">One clear sentence describing what this project is and who it's for.</p>
+          <div class="entry-actions">
+            <a class="btn btn-primary" href="https://your-demo-link.com" target="_blank" rel="noopener">demo ↗</a>
+            <a class="btn btn-ghost" href="https://github.com/yourusername/project-two" target="_blank" rel="noopener">source ↗</a>
+          </div>
+        </header>
+
+        <dl class="spec">
+          <div class="spec-row">
+            <dt>problem</dt>
+            <dd>Describe the specific problem this project addresses.</dd>
+          </div>
+          <div class="spec-row">
+            <dt>solution</dt>
+            <dd>Describe what you built and the approach you took.</dd>
+          </div>
+          <div class="spec-row">
+            <dt>stack</dt>
+            <dd>
+              <ul class="chip-row">
+                <li>Python</li>
+                <li>FastAPI</li>
+                <li>Redis</li>
+              </ul>
+            </dd>
+          </div>
+        </dl>
+
+        <div class="entry-block">
+          <h4 class="block-label">screenshots</h4>
+          <div class="shot-grid">
+            <figure class="shot-placeholder">
+              <span>01_overview.png</span>
+            </figure>
+            <figure class="shot-placeholder">
+              <span>02_detail.png</span>
+            </figure>
+          </div>
+          <p class="shot-hint">Replace each figure with <code>&lt;img src="assets/project-two/01_overview.png" alt="…"&gt;</code> once you have real screenshots.</p>
+        </div>
+
+        <div class="entry-block">
+          <h4 class="block-label">features</h4>
+          <ul class="feature-list">
+            <li>Key feature or capability, described in one line.</li>
+            <li>Another feature — what it does, not how it's built.</li>
+          </ul>
+        </div>
+
+        <div class="note-grid">
+          <div class="note">
+            <h4 class="block-label">challenges</h4>
+            <p>The hardest technical or product problem you ran into.</p>
+          </div>
+          <div class="note">
+            <h4 class="block-label">lessons learned</h4>
+            <p>What you'd do differently, or a principle this project taught you.</p>
+          </div>
+        </div>
+      </article>
+
+      <!--
+        TO ADD MORE PROJECTS:
+        Copy one <article class="entry"> block above (including its closing tag),
+        paste it here, update the id, log[0N] index, and all content inside.
+      -->
+
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="about">
+    <h2 class="section-label">## about</h2>
+    <p>
+      I work at the intersection of business and software — translating operational problems
+      into systems that actually fix them. My background in business analysis means I start by
+      understanding how people really work: where processes break down, where data gets lost,
+      where a "workaround" has quietly become the workflow. From there, I design and build the
+      software to close that gap.
+    </p>
+    <p style="margin-top: 20px;">
+      I've spent my career supporting digital transformation efforts inside larger organizations,
+      often untangling enterprise systems that have grown complex over time and need to talk to
+      each other — or to be replaced — without disrupting the people who depend on them daily.
+      I care less about using the newest tool and more about solving the actual operational
+      problem in front of me, whether that means a new internal tool, an integration, or a
+      smarter process.
+    </p>
+    <p style="margin-top: 20px;">
+      What ties it together is empathy for the end user: a system is only as good as the problem
+      it solves for the person using it.
+    </p>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact">
+    <h2 class="section-label">## contact</h2>
+    <p class="contact-line">Open to new roles and interesting problems.</p>
+    <a class="btn btn-primary btn-large" href="mailto:you@example.com">say hello ↗</a>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Your Name. Built with HTML &amp; CSS.</p>
+  <ul class="footer-links">
+    <li><a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a></li>
+    <li><a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a></li>
+  </ul>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
