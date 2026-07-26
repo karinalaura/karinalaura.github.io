@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karina Rajnauth — Software Developer</title>
+<meta name="description" content="Software developer portfolio — projects, case studies, and contact.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <a class="brand" href="#top">KR<span class="brand-dot">.</span></a>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a class="nav-resume" href="./resume.pdf" target="_blank" rel="noopener">Résumé ↗</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section id="top" class="hero">
+    <p class="eyebrow">// business systems analyst, software developer, HRIS administrator</p>
+    <h1 class="hero-name">Karina Rajnauth<span class="cursor" aria-hidden="true">_</span></h1>
+    <p class="hero-desc">
+      I design and develop business applications that solve operational challenges through business analysis, software development and data analytics. My experience spans enterprise HR systems, Oracle Fusion implementation, workflow automation, ETL development and application support within the Trinidad and Tobago Police Service.
+      Below is a build log of recent projects:
+      what problem each one solved, how, and what I learned along the way.
+    </p>
+
+    <ul class="hero-links">
+      <li><a href="mailto:karinarajnauth@gmail.com">email ↗</a></li>
+      <li><a href="https://github.com/karinalaura" target="_blank" rel="noopener">github ↗</a></li>
+      <li><a href="https://linkedin.com/in/karinarajnauth" target="_blank" rel="noopener">linkedin ↗</a></li>
+    </ul>
+
+    <ul class="hero-stack" aria-label="Core technologies">
+      <li>Python</li>
+      <li>SQL</li>
+      <li>Flask</li>
+      <li>Django</li>
+      <li>VS Code</li>
+      <li>ETL</li>
+      <li>Business Process Modelling</li>
+      <li>iHRIS</li>
+    </ul>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section id="work" class="work">
+    <h2 class="section-label">## projects</h2>
+
+    <div class="entries">
+
+      <!-- ---------- PROJECT 1 JOB LETTERS---------- -->
+      <article class="entry" id="project-one">
+        <header class="entry-head">
+          <span class="entry-index">log[01]</span>
+          <div class="entry-title-row">
+            <h3 class="entry-title">Job Letter Application</h3>
+            <span class="status-pill status-live">live</span>
+          </div>
+          <p class="entry-tagline">Designed and developed a Flask-based web application that automates the production of official employment verification letters.
+
+The application integrates employee information from multiple enterprise data sources through a custom Python data integration process, validates and cleans incoming data, applies business rules and generates standardized job letters using approved templates.
+
+The solution also incorporates authorised digital signatures and has been designed to support future QR code verification as part of an Employee Self-Service (ESS) environment.</p>
+          <p class="shot-hint">Username: admin | Password: password<br>
+          Search for Badge Numbers: 58214, 58215</p>
+          <div class="entry-actions">
+            <a class="btn btn-primary" href="https://job-letter-generator-nn9o.onrender.com" target="_blank" rel="noopener">demo ↗</a>
+            <!--<a class="btn btn-ghost" href="https://github.com/yourusername/project-one" target="_blank" rel="noopener">source ↗</a>-->
+          </div>
+
+          <div class="entry-block">
+          <h4 class="block-label screenshots-title">screenshots</h4>
+          <div class="shot-grid">
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-one/01_overview.png" alt="…"></span>
+            </figure>
+          </div>
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-one/02_overview.png" alt="…"></span>
+            </figure>
+          </div>
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-one/03_overview.png" alt="…"></span>
+            </figure>
+          </div>
+        </div>
+
+        </header>
+
+        <dl class="spec">
+          <div class="spec-row">
+            <dt>business challenge</dt>
+            <dd>The existing job letter process relied heavily on manual preparation, repetitive data entry and paper-based workflows. Employees were required to request letters manually, while HR staff recreated employment information for every request, increasing processing time and the potential for inconsistencies.
+            <br>
+            In addition, employee information required for job letters existed across multiple systems and payroll reports, making it difficult to produce accurate, standardized employment verification letters efficiently.</dd>
+          </div>
+          <div class="spec-row">
+            <dt>my role</dt>
+            <ul class="feature-list">
+            <li>Business Analysis</li>
+            <li>Stakeholder Consultation</li>
+            <li>Requirements Gathering</li>
+            <li>Solution Design</li>
+            <li>Database Design</li>
+            <li>Python Development</li>
+            <li>ETL Development</li>
+            <li>Application Testing</li>
+            <li>Technical Presentations</li>
+            <li>User Demonstrations</li>
+            <li>Application Maintenance</li>
+            <li>Continuous Improvement</li>
+          </ul>
+          </div>
+
+          <div class="spec-row">
+            <dt>stakeholder collaboration</dt>
+            <dd>The application was developed in collaboration with the Superintendent responsible for Human Resources and Information Technology, 
+              ensuring the solution reflected operational requirements while supporting future technology initiatives.
+              Following development, I presented and demonstrated the application to representatives from other 
+              divisions within the Ministry. These sessions included detailed walkthroughs of:<br><br>
+            <ul class="feature-list">
+              <li>Business requirements and operational workflow</li>
+              <li>System architecture</li>
+              <li>Relational database schema</li>
+              <li>Python application logic</li>
+              <li>ETL process and data integration</li>
+              <li>Business rules governing job letter generation</li>
+              <li>Future enhancements and scalability</li>
+            </ul>
+            These presentations supported the evaluation of the solution for broader organisational use and provided stakeholders with an understanding of the 
+            application's technical design and business value.        
+          </dd>            
+          </div>
+
+          <div class="spec-row">
+            <dt>solution</dt>
+            <dd>Designed and developed a Flask-based web application that automates the production of official employment verification letters.
+            <br>
+            The application integrates employee information from multiple enterprise data sources through a custom Python data integration process, 
+            validates and cleans incoming data, applies business rules and generates standardized job letters using approved templates.
+            <br>
+            The solution also incorporates authorised digital signatures and has been designed to support future QR code verification as part of an Employee Self-Service (ESS) environment.</dd>
+          </div>
+
+          <div class="spec-row">
+          <dt>key features</dt>
+          <dd>
+          <ul class="feature-list">
+            <li>Automated job letter generation.</li>
+            <li>Pre-poplated categories of institution and addresses.</li>
+            <li>Multi-source data integration.</li>
+            <li>Automated data validation and cleansing.</li>
+            <li>Standardized letter templates.</li>
+            <li>Authorised signatures.</li>
+            <li>Generated letter history.</li>
+            <li>Search by employee information.</li>
+            <li>Centralised database.</li>
+            <li>Paperless workflow.</li>
+          </ul>
+          </dd>
+        </div>
+
+          <div class="spec-row">
+            <dt>stack</dt>
+            <dd>
+              <ul class="chip-row">
+                <li>Python</li>
+                <li>Flask</li>
+                <li>SQLite</li>
+                <li>ETL</li>
+                <li>ReportLab</li>
+              </ul>
+            </dd>
+          </div>
+        </dl>        
+
+        <div class="entry-block">
+          <h4 class="block-label">system architecture</h4>
+          <figure class="diagram-container">
+          <img class="diagram-img" src="assets/project-one/01_diagram.png" alt="…">
+          <figcaption class="diagram-caption">Figure 1: The Job Letter Application integrates data from multiple enterprise sources, applies validation and business rules through a Python data processing layer, 
+            and generates standardized electronic job letters for distribution through a paperless workflow.
+          </figcaption>
+          </figure>
+          </div>
+
+        <div class="spec-row">
+          <dt>challenges</dt>
+          <dd>
+          <ul class="feature-list">
+            <li>Integrating employee information from multiple enterprise data sources.</li>
+            <li>Extracting structured payroll information from PDF reports.</li>
+            <li>Validating and cleansing inconsistent data before import.</li>
+            <li>Designing a scalable relational database.</li>
+            <li>Maintaining data integrity across monthly payroll updates.</li>
+            <li>Standardising official employment verification letters.</li>
+            <li>Designing the system to accommodate future ESS integration and QR code validation.</li>
+          </ul>
+          </dd>
+        </div>
+
+          <div class="spec-row">
+            <dt>operational impact</dt>
+          <ul class="feature-list">
+            <li>Digitised the job letter request process through electronic submission and delivery.</li>
+            <li>Transitioned the process to a paperless workflow, eliminating printed request forms and manual filing.</li>
+            <li>Automated the generation of official employment verification letters.</li>
+            <li>Improved consistency and accuracy through standardised templates and automated validation.</li>
+            <li>Reduced repetitive manual data entry through ETL automation.</li>
+            <li>Established a scalable platform for future Employee Self-Service integration.</li>
+            <li>Continued monthly maintenance through payroll data extraction, validation, cleansing and loading to ensure current and reliable employee information.</li>
+          </ul>
+        </div>
+        </dl>
+
+        <div class="spec-row">
+            <dt>application support & continuous improvement</dt>
+            <dd>Following implementation, I continue to support and enhance the application by:<br><br>
+            <ul class="feature-list">
+              <li>Performing monthly extraction of payroll data.</li>
+              <li>Validating and cleansing imported information.</li>
+              <li>Synchronising data from multiple enterprise sources.</li>
+              <li>Resolving data-related issues.</li>
+              <li>Implementing application enhancements.</li>
+              <li>Maintaining database integrity.</li>
+              <li>Supporting operational users.</li>
+            </ul>       
+          </dd>            
+          </div>
+
+        <div class="spec-row">
+            <dt>lessons learned</dt>
+            <dd>This project reinforced the importance of designing applications that extend beyond automation to support long-term operational sustainability. It highlighted 
+              the value of integrating multiple enterprise data sources, collaborating closely with business stakeholders and communicating technical concepts to non-technical audiences. Presenting the system's architecture, database design and application logic to senior stakeholders also strengthened my ability to translate complex technical solutions into practical business value.</dd>
+          </div>
+      </article>
+
+      <!-- ---------- PROJECT 2 ATTENDANCE TRACKER---------- -->
+      <article class="entry" id="project-one">
+        <header class="entry-head">
+          <span class="entry-index">log[02]</span>
+          <div class="entry-title-row">
+            <h3 class="entry-title">Attendance & Building Occupancy Management System</h3>
+            <span class="status-pill status-live">live</span>
+          </div>
+          <p class="entry-tagline">The Attendance & Building Occupancy Management System was developed in response to an elevated security concern within the Administration Building. At the time, the organisation had no effective 
+            means of determining who was present within the building during normal operations or emergency situations. Working as part of a committee appointed by the Director of Human Resources, I designed and implemented a cloud-based attendance and 
+            occupancy solution that evolved from a Google Sheets application into a Python-based system to support future scalability and enhanced functionality.</p>
+          
+          <div class="entry-actions">
+            <a class="btn btn-primary" href="https://attendance-tracker-ljs0.onrender.com" target="_blank" rel="noopener">demo ↗</a>
+            <a class="btn btn-ghost" href="https://docs.google.com/spreadsheets/d/1MqpHgCe_jgT6dOYIo1ka7PehuGJzjlpcqwzwq8iO8KU/edit?usp=sharing" target="_blank" rel="noopener">google sheet link ↗</a>
+          </div>
+
+          <div class="entry-block">
+          <h4 class="block-label screenshots-title">screenshots</h4>
+          <div class="shot-grid">
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-two/01_overview.png" alt="…"></span>
+            </figure>    
+          </div>
+          
+          <div class="shot-grid">
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-two/02_overview.png" alt="…"></span>
+            </figure>    
+          </div>
+
+           <div class="shot-grid">
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-two/03_overview.png" alt="…"></span>
+            </figure>    
+          </div>
+
+          <div class="shot-grid">
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-two/04_overview.png" alt="…"></span>
+            </figure>    
+          </div>
+
+          <div class="shot-grid">
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-two/05_overview.png" alt="…"></span>
+            </figure>    
+          </div>
+
+          <div class="shot-grid">
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-two/06_overview.png" alt="…"></span>
+            </figure>    
+          </div>
+
+        </div>
+
+        </header>
+
+        <dl class="spec">
+          <div class="spec-row">
+            <dt>business challenge</dt>
+            <dd>During a period of heightened security concern, senior management identified the need for real-time visibility of building occupancy.
+            <br>
+Although a biometric/key-card access system was considered, implementation was not possible due to infrastructure limitations.
+            <br>
+Following this decision, the Sergeant responsible for the Guard Unit proposed a manual sign-in register for employees and visitors. The proposal was ultimately rejected because senior public servants were not required to sign upon arrival, making the process impractical and unlikely to achieve complete accountability.
+            <br>
+A committee comprising representatives from the Guard Unit, Inspector Administration and Compliance and senior public servants from human resource, was therefore established to develop an alternative solution that could:
+              <ul class="feature-list">
+              <li>Account for everyone within the building in real time.</li>
+              <li>Monitor employee and visitor movements.</li>
+              <li>Operate without new infrastructure.</li>
+              <li>Be accessible during emergencies.</li>
+              <li>Be rapidly deployed.</li>
+            </ul>
+            </dd>
+          </div>
+
+          <div class="spec-row">
+            <dt>my role</dt>
+            <ul class="feature-list">
+            <li>Committee Member appointed by the Director of Human Resources.</li>
+            <li>Business Analysis.</li>
+            <li>Requirements Gathering.</li>
+            <li>Process Analysis.</li>
+            <li>Solution Architecture.</li>
+            <li>User Interface Design.</li>
+            <li>Data Model Design.</li>
+            <li>Google Workspace Development.</li>
+            <li>Python Application Development.</li>
+            <li>Application Support.</li>
+            <li>Data Management.</li>
+            <li>Continuous Improvement.</li>
+          </ul>
+          </div>
+
+          <div class="spec-row">
+            <dt>stakeholder collaboration</dt>
+            <dd>The solution was developed collaboratively with:<br><br>
+            <ul class="feature-list">
+              <li>ACP Administration</li>
+              <li>Sergeant, Guard Unit</li>
+              <li>Human Resources Officers</li>
+            </ul>
+            Working closely with the Sergeant of the Guard Unit, the application underwent several iterations as operational requirements expanded.
+            <br>
+The initial implementation tracked public servants only before being progressively enhanced to include:<br><br>       
+            <ul class="feature-list">
+              <li>Police Officers</li>
+              <li>Visitors</li>
+              <li>Internal building movements</li>
+              <li>Occupancy reporting</li>
+            </ul>
+            Each enhancement was introduced following stakeholder consultation and operational feedback.
+          </dd>            
+          </div>
+
+          <div class="spec-row">
+            <dt>Solution Evolution</dt>
+            <dd>
+              <h3>Phase 1 – Google Sheets</h3>
+              To allow rapid implementation without requiring internal server infrastructure, I designed a cloud-based attendance and building occupancy system using Google Sheets and Google Apps Script.
+              <br>
+The solution offered:
+            <br><br>
+            <ul class="feature-list">
+              <li>Real-time attendance recording.</li>
+              <li>Building occupancy monitoring.</li>
+              <li>Mobile accessibility.</li>
+              <li>Remote access for the Guard Unit.</li>
+              <li>Dashboard reporting.</li>
+              <li>Immediate deployment.</li>
+            </ul>
+            This approach was selected because it could be implemented immediately without assistance from the IT Unit while remaining accessible during power outages and emergency situations.
+              <br>
+              <br>
+              <h3>Phase 2 – System Optimisation</h3>
+              Within the first week of implementation, the application exceeded Google's free Apps Script execution quota due to the volume of automated requests generated by the system.
+              <br>
+Rather than treating this as a failure, I analysed the application's performance, redesigned several automated processes and reduced unnecessary requests while maintaining essential functionality.
+              <br>
+This optimisation restored system stability and provided valuable insight into the scalability limitations of cloud-based scripting platforms.
+            <br>
+              <br>
+              <h3>Phase 3 – Python Application</h3>
+              Recognising the long-term limitations of the Google Sheets implementation, I designed Phase 1 of a Python-based application intended to provide:
+              <br><br>
+            <ul class="feature-list">
+              <li>Improved scalability.</li>
+              <li>Enhanced maintainability.</li>
+              <li>More sophisticated business logic.</li>
+              <li>Greater flexibility for future enhancements.</li>
+            </ul>
+            The Python application represents the next stage in the system's evolution while preserving the operational workflows validated through the initial implementation.
+            </dd>
+
+          </div>
+
+          <div class="spec-row">
+          <dt>key features</dt>
+          <dd>
+          <ul class="feature-list">
+            <li>Real-time attendance tracking.</li>
+            <li>Building occupancy monitoring.</li>
+            <li>Attendance and movement history log.</li>
+            <li>Visitor management.</li>
+            <li>Movement tracking.</li>
+            <li>Centralized employee register.</li>
+            <li>Dashboard reporting.</li>
+            <li>Mobile accessibility.</li>
+            <li>Cloud-based deployment.</li>
+            <li>Data validation.</li>
+            <li>Operational reporting.</li>
+          </ul>
+          </dd>
+        </div>
+
+          <div class="spec-row">
+            <dt>stack</dt>
+            <dd>
+              <ul class="chip-row">
+                <li>Google Sheets</li>
+                <li>Google Apps Script</li>
+                <li>Python</li>
+                <li>SQLite</li>
+                <li>Business Process Analysis</li>
+                <li>Data Validation</li>
+              </ul>
+            </dd>
+          </div>
+        </dl>        
+
+        <div class="spec-row">
+          <dt>challenges</dt>
+          <dd>
+          <ul class="feature-list">
+            <li>Absence of a biometric access control system.</li>
+            <li>Infrastructure limitations preventing implementation of a key-card solution.</li>
+            <li>Requirement for rapid deployment.</li>
+            <li>Maintaining real-time building occupancy.</li>
+            <li>Managing increasing operational complexity.</li>
+            <li>Overcoming Google Apps Script quota limitations.</li>
+            <li>Designing a scalable migration path from a cloud spreadsheet to a dedicated application.</li>
+            <li>Maintaining an accurate employee register despite continuous staff transfers and appointments.</li>
+          </ul>
+          </dd>
+        </div>
+
+          <div class="spec-row">
+            <dt>operational impact</dt>
+          <ul class="feature-list">
+            <li>Delivered the organisation's first centralized electronic attendance and occupancy management system.</li>
+            <li>Provided management and the Guard Unit with real-time visibility of building occupancy.</li>
+            <li>Supported emergency accountability procedures.</li>
+            <li>Enabled remote access via desktop and mobile devices.</li>
+            <li>Established a scalable foundation for migration to a dedicated Python application.</li>
+            <li>Improved operational resilience without requiring additional infrastructure investment.</li>
+          </ul>
+        </div>
+        </dl>
+
+        <div class="spec-row">
+            <dt>application support & continuous improvement</dt>
+            <dd>Following implementation, I continue to:<br><br>
+            <ul class="feature-list">
+              <li>Maintain the master employee register.</li>
+              <li>Process staff transfers and appointments.</li>
+              <li>Update organisational changes.</li>
+              <li>Troubleshoot user issues.</li>
+              <li>Restore deleted or corrupted data.</li>
+              <li>Implement enhancements.</li>
+              <li>Improve usability based on stakeholder feedback.</li>
+            </ul> 
+            <br>
+            The system has been designed to support future integration with physical access control technology.
+            <br>
+Current development includes integration with electronic card readers that will automatically identify personnel upon entry, removing the need for manual user selection while further improving the accuracy and efficiency of attendance recording.     
+          </dd>            
+          </div>
+
+        <div class="spec-row">
+            <dt>lessons learned</dt>
+            <dd>This project demonstrated that successful technology solutions require more than software development. By understanding operational constraints, engaging stakeholders and selecting technologies appropriate to the organisation's environment, it was possible to deliver an effective solution despite infrastructure limitations. The evolution from a rapid cloud-based implementation to a dedicated Python application also reinforced the importance of designing systems that can adapt and scale as organisational needs mature.</dd>
+          </div>
+      </article>
+
+      <!-- ---------- PROJECT 3 ORACLE ERP IMPLEMENTATION---------- -->
+      <article class="entry" id="project-one">
+        <header class="entry-head">
+          <span class="entry-index">log[03]</span>
+          <div class="entry-title-row">
+            <h3 class="entry-title">Oracle Fusion Cloud ERP Implementation</h3>
+            <!--<span class="status-pill status-live">live</span>-->
+            <h3>Business Process Officer | June 2024 – May 2025</h3>
+          </div>
+          <p class="entry-tagline">Officially appointed as Business Process Officer for the Government of Trinidad and Tobago's Oracle Fusion Cloud ERP (e-HCM) implementation, representing the Trinidad and Tobago Police Service throughout business analysis, process re-engineering, requirements gathering, legacy data preparation and system configuration activities.
+<br>
+Working alongside Oracle Senior Cloud Consultants, Business Process Analysts and Government project stakeholders, I translated complex policing legislation and operational procedures into functional business requirements to support the implementation of Oracle Fusion Human Capital Management.</p>
+        
+        </header>
+
+        <dl class="spec">
+          <div class="spec-row">
+            <dt>project objective</dt>
+            <dd>To replace the legacy iHRIS Human Resource Information System with Oracle Fusion Cloud
+               ERP while ensuring TTPS business processes, legislative requirements and employee data were accurately represented within the new enterprise platform.
+            </dd>
+          </div>
+
+          <div class="spec-row">
+            <dt>my role</dt>
+            <ul class="feature-list">
+            <li>Officially appointed Business Process Officer by Ministry of Public Administration.</li>
+            <li>Business Analysis.</li>
+            <li>Requirements Gathering.</li>
+            <li>Process Mapping.</li>
+            <li>Functional Requirements.</li>
+            <li>Business Rule Analysis.</li>
+            <li>Legacy Data Validation.</li>
+            <li>Data Cleansing.</li>
+            <li>Data Migration Support.</li>
+            <li>Stakeholder Workshops.</li>
+            <li>User Acceptance Support.</li>
+            <li>Solution Design Support.</li>
+            <li>Process Documentation.</li>
+            <li>Cross-functional Collaboration.</li>
+          </ul>
+          </div>
+
+          <div class="spec-row">
+            <dt>stakeholder collaboration</dt>
+            <dd>Worked closely with:<br><br>
+            <ul class="feature-list">
+              <li>Oracle Senior Cloud Consultants</li>
+              <li>Business Process Analysts</li>
+              <li>Ministry of Public Administration</li>
+              <li>Human Resource representatives</li>
+              <li>Leave Administration Units</li>
+              <li>Police operational representatives</li>
+              <li>Personnel Department Officers</li>
+            </ul>
+            Worked directly with Oracle Senior Cloud Consultants to translate Police Service operational requirements into functional specifications, 
+            business rules and configuration guidance. This included reviewing Foundation Design Documents, refining configuration questionnaires and 
+            developing process logic to support the implementation of Police-specific workflows and operational requirements.
+          </dd>            
+          </div>
+
+          <div class="spec-row">
+            <dt>Business Analysis Activities</dt>
+            <dd>Working with Business Process Analysts, I reviewed and refined numerous Human Resource processes including:<br><br>
+            <ul class="feature-list">
+              <li>Gathering requirements from operational users.</li>
+              <li>Mapping existing ("As-Is") business processes.</li>
+              <li>Analysing Police Service Regulations.</li>
+              <li>Interpreting Civil Service legislation.</li>
+              <li>Defining Police-specific business rules.</li>
+              <li>Completing Oracle Configuration Questionnaires.</li>
+              <li>Reviewing Foundation Design Documents.</li>
+              <li>Working directly with Oracle consultants to refine system behaviour.</li>
+              <li>Translating operational requirements into functional specifications.</li>
+            </ul>
+            </dd>
+
+          </div>
+
+          <div class="spec-row">
+          <dt>Process Re-engineering</dt>
+          <dd>
+            Working with Business Process Analysts, I reviewed and refined numerous Human Resource processes including:<br><br>
+          <ul class="feature-list">
+            <li>Employee intake.</li>
+            <li>Appointment workflows.</li>
+            <li>Leave administration.</li>
+            <li>Employee classifications.</li>
+            <li>Employment lifecycle.</li>
+            <li>Position management.</li>
+          </ul>
+          One significant contribution involved refining the Police recruitment and appointment process after identifying terminology and workflow 
+          differences unique to the Trinidad and Tobago Police Service. I collaborated with the Business Process Analyst to revise process maps and 
+          narrative documentation, ensuring they accurately reflected TTPS operational practices before approval.
+          </dd>
+        </div>
+
+        <div class="spec-row">
+          <dt>Legislative & Business Rule Analysis</dt>
+          <dd>
+            To support Oracle Fusion configuration, I analysed and interpreted:<br><br>
+          <ul class="feature-list">
+            <li>Police Service Regulations.</li>
+            <li>TTPS Standing Orders.</li>
+            <li>TTPS Departmental Orders.</li>
+            <li>Civil Service Regulations.</li>
+            <li>Devolved Functions.</li>
+            <li>Internal Human Resource policies.</li>
+            <li>Leave rules.</li>
+            <li>Shift and roster arrangements.</li>
+            <li>Employee classifications.</li>
+          </ul>
+          These analyses formed the basis for defining business rules used during Oracle Fusion configuration.
+          </dd>
+        </div>
+
+        <div class="spec-row">
+          <dt>Data Migration</dt>
+          <dd>
+            Supported legacy data preparation by:<br><br>
+          <ul class="feature-list">
+            <li>Validating employee information.</li>
+            <li>Identifying data quality issues.</li>
+            <li>Cleaning legacy datasets.</li>
+            <li>Supporting migration readiness.</li>
+            <li>Working with HR units to collect missing employee information.</li>
+            <li>Improving data consistency before migration.</li>
+          </ul>
+          </dd>
+        </div>
+
+         <div class="spec-row">
+          <dt>Featured Deliverables</dt>
+          <dd>
+            <h3>Leave Balance Migration Tool</h3>
+            During implementation, a significant challenge emerged.
+            <br>
+Legacy leave balances required for migration were unavailable, making manual calculation for approximately 8,000 employees impractical.
+            <br>
+To address this, I designed and developed a Python application that automated leave balance calculations by applying organisational leave rules and employee leave history.<br>
+            <br> <h5>Business Impact</h5>
+          <ul class="feature-list">
+            <li>Automated a the manual calculation process.</li>
+            <li>Improved migration readiness.</li>
+            <li>Reduced calculation errors.</li>
+            <li>Supported Oracle Fusion implementation activities.</li>
+          </ul>
+          <br><hr>
+          <h3>Span of Control & Organisational Hierarchy Analysis</h3>
+            One of my key responsibilities during the Oracle Fusion implementation was supporting the development of the TTPS Span of Control, a comprehensive organisational hierarchy used to define reporting relationships and approval workflows within Oracle Fusion.
+            <br>
+Unlike a conventional organisational chart, this exercise required constructing a hierarchical reporting structure from information gathered across police stations, divisions and specialised units throughout the organisation.
+            <br> <h5>Business Challenge</h5>
+            Oracle Fusion requires clearly defined supervisory relationships to support automated approval workflows for processes such as leave, appointments and other Human Resource transactions.
+          <br>
+Within the TTPS, however, organisational structures are highly dynamic. Officers are frequently transferred, reassigned or placed in acting appointments, and reporting relationships are not always centrally documented.
+          <br>
+As a result, there was no single authoritative hierarchy that could be used directly within the system.
+          <br>
+          <h5>My Responsibilities</h5>
+          <ul class="feature-list">
+            <li>Collected organisational information from stations, divisions and specialised units.</li>
+            <li>Consolidated employee and supervisory listings received from operational areas.</li>
+            <li>Validated reporting relationships with stakeholders.</li>
+            <li>Organised hierarchical reporting structures from frontline officers through successive supervisory levels.</li>
+            <li>Structured the information into a logical span of control suitable for Oracle Fusion configuration.</li>
+            <li>Worked with project stakeholders to refine organisational hierarchies where reporting relationships required clarification.</li>
+          </ul>
+          
+          <h5>Contribution</h5>
+          The completed span of control provided a structured representation of supervisory relationships across the organisation and supported the configuration of Oracle Fusion approval workflows.
+          <br>
+This work formed an important foundation for ensuring that system-generated approvals aligned as closely as possible with the operational management structure of the TTPS.
+          </dd>
+        </div> 
+
+        <div class="spec-row">
+          <dt>challenges</dt>
+          <dd>
+          <ul class="feature-list">
+            <li>Translating complex legislation into system configuration.</li>
+            <li>Representing unique Police Service operational requirements.</li>
+            <li>Standardising processes across multiple stakeholder groups.</li>
+            <li>Validating large volumes of legacy HR data.</li>
+            <li>Coordinating with multiple Government ministries and Oracle consultants.</li>
+            <li>Supporting enterprise-wide transformation while maintaining day-to-day HR operations.</li>
+          </ul>
+          </dd>
+        </div>
+
+          <div class="spec-row">
+            <dt>operational impact</dt>
+          <ul class="feature-list">
+            <li>Helped ensure TTPS operational requirements were accurately represented within Oracle Fusion.</li>
+            <li>Improved business process documentation and standardisation.</li>
+            <li>Enhanced the quality of legacy employee data prior to migration.</li>
+            <li>Automated complex leave balance calculations to support implementation.</li>
+            <li>Strengthened collaboration between business users and technical implementation teams.</li>
+          </ul>
+        </div>
+        </dl>
+
+          <div class="spec-row">
+            <dt>lessons learned</dt>
+            <dd>Working on the Oracle Fusion implementation provided valuable experience in enterprise systems delivery, demonstrating 
+              that successful ERP implementations depend on a thorough understanding of business processes, legislation, stakeholder 
+              collaboration and high-quality data. The project strengthened my ability to translate operational requirements into functional 
+              system designs while working effectively with software developers, consultants and business users.</dd>
+          </div>
+
+        <div class="spec-row">
+            <dt>Future Value</dt>
+            <dd>The experience gained through the Oracle Fusion implementation continues to influence my approach to software development. 
+              I now design applications with a stronger emphasis on stakeholder engagement, business process analysis, scalability and 
+              maintainability, recognising that successful technology solutions must align with organisational processes as much as technical 
+              requirements.
+          </dd>            
+          </div>
+
+      </article>
+
+      <!-- ---------- PROJECT 4 LEAVE BALANCE CALCULATOR---------- -->
+      <article class="entry" id="project-one">
+        <header class="entry-head">
+          <span class="entry-index">log[04]</span>
+          <div class="entry-title-row">
+            <h3 class="entry-title">Leave Balance Migration Tool</h3><br>
+            <h4>Oracle Fusion Cloud ERP Implementation, Featured Deliverable</h4>
+            <!--<span class="status-pill status-live">live</span>-->
+          </div>
+
+          <div class="entry-actions">
+            <a class="btn btn-primary" href="https://python-leave-calc.onrender.com" target="_blank" rel="noopener">demo ↗</a>
+            <a class="btn btn-ghost" href="https://docs.google.com/spreadsheets/d/1ivRu8P1irQAUMHtPeIVeN_mWz6I-s4N29MPoZJQemww/edit?usp=sharing" target="_blank" rel="noopener">Google Sheet Calculator ↗</a>
+          </div>
+
+          <div class="entry-block">
+          <h4 class="block-label screenshots-title">screenshots</h4>
+          <div class="shot-grid">
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-four/01_overview.png" alt="…"></span>
+            </figure>
+            </div>
+            <div>
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-four/02_overview.png" alt="…"></span>
+            </figure>
+            </div>
+            <div>
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-four/03_overview.png" alt="…"></span>
+            </figure>
+          </div>
+          <div>
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-four/04_overview.png" alt="…"></span>
+            </figure>
+          </div>
+          <div>
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-four/05_overview.png" alt="…"></span>
+            </figure>
+          </div>
+          <div>
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-four/06_overview.png" alt="…"></span>
+            </figure>
+          </div>
+        </div>
+
+        </header>
+
+        <dl class="spec">
+          <div class="spec-row">
+            <dt>business challenge</dt>
+            <dd>A critical dependency for the Oracle Fusion implementation was the migration of accurate employee leave balances from the 
+              legacy iHRIS system into Oracle Fusion before the scheduled data migration deadline.
+              <br>
+However, complete leave balances were not centrally available. Leave applications were processed across multiple police stations and units 
+before eventually reaching Head Office, resulting in information being dispersed across numerous locations and records. Reconciling leave 
+balances manually for approximately 8,000 employees within the implementation timeframe presented a significant operational challenge and 
+posed a risk to the successful migration of employee data.</dd>
+          </div>
+
+          <div class="spec-row">
+            <dt>solution</dt>
+            <dd>To support the implementation timeline, I designed and developed a Python application to automate leave balance calculations.
+              <br>
+The application applied the organisation's leave policies and business rules to calculate employee leave entitlements and balances, significantly reducing the manual effort required to prepare migration data.
+              <br>
+The solution enabled HR personnel to process large volumes of employee records more efficiently while improving consistency and reducing the likelihood of calculation errors prior to migration into Oracle Fusion.</dd>
+          </div>
+
+          <div class="spec-row">
+          <dt>my role</dt>
+          <dd>
+          <ul class="feature-list">
+            <li>Analysed leave administration processes.</li>
+            <li>Interpreted leave regulations and business rules.</li>
+            <li>Designed the calculation methodology.</li>
+            <li>Developed a Google sheet with formulas implemented to match calculations logic.</li>
+            <li>Developed the Python application.</li>
+            <li>Tested calculation accuracy against manual examples.</li>
+            <li>Supported migration readiness activities.</li>
+          </ul>
+          </dd>
+        </div>
+
+          <div class="spec-row">
+            <dt>stack</dt>
+            <dd>
+              <ul class="chip-row">
+                <li>MS Excel</li>
+                <li>Python</li>
+                <li>Date & Time Calculations</li>
+                <li>Business Rule Processing</li>
+              </ul>
+            </dd>
+          </div>
+        </dl>        
+
+        <div class="spec-row">
+            <dt>operational impact</dt>
+          <ul class="feature-list">
+            <li>Supported a critical Oracle Fusion implementation milestone by assisting with preparation of leave balances before the migration deadline.</li>
+            <li>Reduced the time required to calculate leave balances for thousands of employees.</li>
+            <li>Improved consistency by applying standardized business rules across calculations.</li>
+            <li>Reduced the operational risk associated with manual calculations during a time-sensitive enterprise implementation.</li>
+            <li>Demonstrated how targeted automation could solve a complex business problem without requiring changes to the existing HR systems.</li>
+          </ul>
+        </div>
+        </dl>
+
+        <div class="spec-row">
+            <dt>lessons learned</dt>
+            <dd>This project reinforced the importance of identifying opportunities for automation during large-scale system implementations. By 
+              understanding both the technical requirements of data migration and the operational realities of leave administration, I was able to 
+              develop a practical solution that reduced risk and supported the successful preparation of legacy data for migration.</dd>
+          </div>
+      </article>
+
+      <!-- ---------- PROJECT 5 TICKET SYSTEM---------- -->
+      <article class="entry" id="project-one">
+        <header class="entry-head">
+          <span class="entry-index">log[05]</span>
+          <div class="entry-title-row">
+            <h3 class="entry-title">Customer Service Request (CSR) Management System</h3><br>
+            <h4>HR & Finance One Stop Shop</h4>
+            <span class="status-pill status-live">live</span>
+          </div>
+          <p class="entry-tagline">Designed a centralized Customer Service Request (CSR) Management System to support the Human Resources and 
+            Finance One Stop Shop, an initiative established by the Senior Superintendent of Human Resources to improve service delivery and 
+            reduce interruptions to operational units.
+            <br>
+The solution enables Customer Service Representatives (CSRs) to record, assign and monitor employee queries from initial contact through to 
+resolution while providing management with valuable operational insights into service demand, response times and recurring issues. The project 
+progressed from an operational spreadsheet prototype 
+to the design of a scalable Python web application.</p>
+          <p class="shot-hint">Username: admin | Password: password321<br>
+          Search for Badge Numbers: 1001, 1002</p>
+
+          <div class="entry-actions">
+            <a class="btn btn-primary" href="https://hr-hub-arkk.onrender.com" target="_blank" rel="noopener">demo ↗</a>
+            <!--<a class="btn btn-ghost" href="https://github.com/yourusername/project-one" target="_blank" rel="noopener">source ↗</a>-->
+          </div>
+
+          <div class="entry-block">
+          <h4 class="block-label screenshots-title">screenshots</h4>
+          <div class="shot-grid">
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-five/01_overview.png" alt="…"></span>
+            </figure>
+            </div>
+          <div> 
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-five/02_overview.png" alt="…"></span>
+            </figure>
+          </div>
+          <div> 
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-five/03_overview.png" alt="…"></span>
+            </figure>
+          </div>
+          <div> 
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-five/04_overview.png" alt="…"></span>
+            </figure>
+          </div>
+          <div> 
+            <figure class="shot-placeholder">
+              <span><img src="assets/project-five/05_overview.png" alt="…"></span>
+            </figure>
+          </div>
+        </div>
+
+        </header>
+
+        <dl class="spec">
+          <div class="spec-row">
+            <dt>business challenge</dt>
+            <dd>To improve service delivery and reduce interruptions to operational departments, the Senior Superintendent of Human Resources established a centralized Customer Service Request (CSR) area within the building lobby. Customer Service Representatives (CSRs) would serve as the first point of contact for employee enquiries relating to Human Resources and Finance.
+              <br>
+The initiative required an immediate mechanism for recording and tracking employee requests. However, implementation presented several operational constraints:<br><br>
+<ul class="feature-list">
+            <li>The solution needed to be operational within one working day to support the launch of the One Stop Shop.</li>
+            <li>Computers assigned to the CSR area had no network connectivity or Internet access, preventing the use of a centralized database or web application.</li>
+            <li>Despite operating independently, each workstation needed to generate unique ticket numbers while maintaining data consistency for future reporting and analysis.</li>
+          
+          </ul>
+          A practical solution was therefore required that could be deployed immediately while providing a pathway to a more sophisticated Python application.
+</dd>
+          </div>
+
+          <div class="spec-row">
+          <dt>my role</dt>
+          <dd>
+          <ul class="feature-list">
+            <li>Business Analysis.</li>
+            <li>Requirements Gathering.</li>
+            <li>Stakeholder Consultation.</li>
+            <li>Customer Journey Mapping.</li>
+            <li>Workflow Design.</li>
+            <li>Process Mapping.</li>
+            <li>Solution Design.</li>
+            <li>Database Design.</li>
+            <li>Python Application Design.</li>
+            <li>Prototype Development.</li>
+          </ul>
+          </dd>
+        </div>
+
+        <div class="spec-row">
+            <dt>Stakeholder Collaboration</dt>
+            <dd>The system was designed in collaboration with the Senior Superintendent of Human Resources, who established the One Stop Hub initiative.
+              <br>
+Working together, we analysed customer service workflows, identified operational challenges and designed a solution that supports both daily operations and future digital transformation initiatives.</dd>
+          </div>
+
+           <div class="spec-row">
+            <dt>Solution Evolution</dt>
+            <dd>
+              <h3>Phase 1 – Rapid Operational Prototype</h3>
+             Given the extremely short implementation timeframe and the absence of network infrastructure, I designed and developed a Microsoft Excel-based ticket management system that could operate independently on multiple workstations.
+              <br>
+Rather than simply recording requests, the spreadsheet was designed to enforce standardized data entry and maintain consistency across all Customer Service Representatives.
+              <br>
+Key design features included:
+            <br><br>
+            <ul class="feature-list">
+              <li>Automatic generation of unique ticket reference numbers.</li>
+              <li>Department-specific ticket prefixes to distinguish requests originating from different service areas.</li>
+              <li>Standardized drop-down lists for ticket categories, actions and statuses.</li>
+              <li>Structured data validation to improve reporting consistency.</li>
+              <li>A format suitable for later consolidation and business analytics.</li>
+            </ul>
+            This allowed the business process to be tested and refined while gathering feedback from operational users.
+              <br>
+              <br>
+             <h4>Challenges</h4>
+             <ul class="feature-list">
+              <li>Delivering a production-ready solution within one working day.</li>
+              <li>Designing a system capable of operating without network connectivity.</li>
+              <li>Maintaining unique ticket numbering across independent workstations.</li>
+              <li>Standardizing data entry to ensure reliable reporting.</li>
+              <li>Designing a solution that could evolve into a centralized Python application without redesigning the underlying business process.</li>
+            </ul>
+              <br>
+              <h4>Lessons Learned</h4>
+              This project demonstrated that successful technology solutions are often constrained more by operational realities than by 
+              technical capability. Delivering a working solution within one day required prioritizing functionality, simplicity and 
+              reliability while ensuring the system could evolve into a more sophisticated application as infrastructure and organisational
+               requirements matured. The experience reinforced the value of iterative development, validating business processes through 
+               rapid prototyping before investing in full software development.<br><br>
+              <h3>Phase 2 – Python Application</h3>
+              Following validation of the operational workflow, I designed Phase 1 of a Python web application to provide a scalable long-term solution.
+              <br>
+The application has been designed to include:
+              <br><br>
+            <ul class="feature-list">
+              <li>Centralized database.</li>
+              <li>Role-based access control.</li>
+              <li>Automated ticket management.</li>
+              <li>Workflow automation.</li>
+              <li>Search and filtering.</li>
+              <li>Reporting dashboards.</li>
+              <li>Audit history.</li>
+              <li>Employee Self-Service integration.</li>
+            </ul>
+            </dd>
+
+          </div>
+
+          <div class="spec-row">
+            <dt>Employee Self-Service Vision</dt>
+            <dd>The long-term vision for the application extends beyond internal ticket management.
+              <br>
+Employees will be able to log into the system through Employee Self-Service to:
+          <ul class="feature-list">
+            <li>Submit service requests.</li>
+            <li>Track the progress of their tickets.</li>
+            <li>View updates.</li>
+            <li>Receive resolution notifications.</li>
+          </ul>
+          This provides greater transparency while reducing the need for repeated enquiries regarding the status of requests.
+          </dd>
+        </div>
+
+        <div class="spec-row">
+            <dt>Business Intelligence & Analytics</dt>
+            <dd>One of the key design objectives was to transform customer service data into actionable management information.
+              <br>
+The application has been designed to provide analytics including:
+          <ul class="feature-list">
+            <li>Volume of enquiries by category.</li>
+            <li>Frequently reported issues.</li>
+            <li>Department receiving the highest number of requests.</li>
+            <li>Average response and resolution times.</li>
+            <li>Outstanding workload.</li>
+            <li>Trends over time.</li>
+          </ul>
+          These insights can support management in identifying recurring operational issues, improving business processes and allocating resources more effectively.
+          </dd>
+        </div>
+
+        <div class="spec-row">
+            <dt>Key Features</dt>
+            <dd>
+          <ul class="feature-list">
+            <li>Customer service ticket management.</li>
+            <li>Ticket lifecycle tracking.</li>
+            <li>Case ownership.</li>
+            <li>Status monitoring.</li>
+            <li>Priority management.</li>
+            <li>Search and filtering.</li>
+            <li>Reporting dashboards.</li>
+            <li>Employee Self-Service integration.</li>
+            <li>Operational analytics.</li>
+            <li>Audit history.</li>
+          </ul>
+          These insights can support management in identifying recurring operational issues, improving business processes and allocating resources more effectively.
+          </dd>
+        </div>
+
+          <div class="spec-row">
+            <dt>stack</dt>
+            <dd>
+              <ul class="chip-row">
+                <li>MS Excel</li>
+                <li>Python</li>
+                <li>SQLite</li>
+                <li>Business Process Analysis</li>
+                <li>Database Design</li>
+              </ul>
+            </dd>
+          </div>
+        </dl>        
+
+        <div class="spec-row">
+            <dt>Challenges</dt>
+          <ul class="feature-list">
+            <li>Designing a new customer service workflow from the ground up.</li>
+            <li>Balancing the needs of Customer Service Representatives, HR, Finance and employees.</li>
+            <li>Creating a workflow that supports both immediate operational requirements and future Employee Self-Service integration.</li>
+            <li>Designing meaningful operational analytics rather than simply recording tickets.</li>
+            <li>Developing a scalable application architecture that can grow with organisational needs.</li>
+          </ul>
+        </div>
+        </dl>
+
+
+        <div class="spec-row">
+            <dt>operational impact</dt>
+          <ul class="feature-list">
+            <li>Supported the implementation of the HR & Finance One Stop Hub service model.</li>
+            <li>Centralized the management of employee enquiries.</li>
+            <li>Improved accountability through structured ticket ownership and status tracking.</li>
+            <li>Reduced interruptions to operational departments by introducing a dedicated customer service function.</li>
+            <li>Established the foundation for Employee Self-Service ticket tracking.</li>
+            <li>Created a framework for business intelligence and continuous process improvement through operational analytics.</li>
+          </ul>
+        </div>
+        </dl>
+
+        <div class="spec-row">
+            <dt>Future Enhancements</dt>
+          <ul class="feature-list">
+            <li>Employee Self-Service portal.</li>
+            <li>Email and SMS notifications.</li>
+            <li>SLA monitoring.</li>
+            <li>Active Directory authentication.</li>
+            <li>Management dashboards.</li>
+            <li>Trend analysis and predictive reporting.</li>
+          </ul>
+        </div>
+        </dl>
+
+
+        <div class="spec-row">
+            <dt>lessons learned</dt>
+            <dd>This project reinforced that effective technology solutions should not only automate existing processes but also improve
+               the overall customer experience. By designing the system around the complete lifecycle of a service request—from
+               initial contact to resolution—the application supports operational efficiency, accountability and continuous improvement. 
+               The inclusion of analytics also reflects a proactive approach, enabling management to identify systemic issues and refine
+                business processes based on evidence rather than anecdotal feedback.</dd>
+          </div>
+      </article>
+
+      <!--
+        TO ADD MORE PROJECTS:
+        Copy one <article class="entry"> block above (including its closing tag),
+        paste it here, update the id, log[0N] index, and all content inside.
+      -->
+
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="about">
+    <h2 class="section-label">## about</h2>
+    <p>
+      I work at the intersection of business and software — translating operational problems
+      into systems that actually fix them. My background in business analysis means I start by
+      understanding how people really work: where processes break down, where data gets lost,
+      where a "workaround" has quietly become the workflow. From there, I design and build the
+      software to close that gap.
+    </p>
+    <p style="margin-top: 20px;">
+      I've spent my career supporting digital transformation efforts inside larger organizations,
+      often untangling enterprise systems that have grown complex over time and need to talk to
+      each other — or to be replaced — without disrupting the people who depend on them daily.
+      I care less about using the newest tool and more about solving the actual operational
+      problem in front of me, whether that means a new internal tool, an integration, or a
+      smarter process.
+    </p>
+    <p style="margin-top: 20px;">
+      What ties it together is empathy for the end user: a system is only as good as the problem
+      it solves for the person using it.
+    </p>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact">
+    <h2 class="section-label">## contact</h2>
+    <p class="contact-line">Open to new roles and interesting problems.</p>
+    <a class="btn btn-primary btn-large" href="mailto:you@example.com">say hello ↗</a>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Your Name. Built with HTML &amp; CSS.</p>
+  <ul class="footer-links">
+    <li><a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a></li>
+    <li><a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a></li>
+  </ul>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
